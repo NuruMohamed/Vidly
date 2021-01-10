@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Vidly.Models.Movie>
+@{
+    ViewBag.Title = "Movie";
+}
+
+<h2>Selected Movie:</h2>
+
+<table>
+    <tr>
+    <thead> @Html.DisplayNameFor(model => model.Id) </thead>
+    <thead>Name</thead>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+        </tr>
+        
+    }
+</table>
+

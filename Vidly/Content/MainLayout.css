@@ -1,0 +1,22 @@
+﻿* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    display: flex;
+    background-color: black;
+    height: 8vh;
+    
+}
+
+#footer {
+    display: flex;
+    /*position: fixed;
+    bottom: 0px;*/
+    background-color: lightgreen;
+    height: 8vh;
+    width: 100%;
+}
